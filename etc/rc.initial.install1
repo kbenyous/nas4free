@@ -44,7 +44,7 @@ $part1min = $g_install['part1min_embedded'];
 $swapsize =  $g_install['default_swap'];
 
 // Default slice/partition layout
-$partlayout = [["slice" => 1, "fstype" => "4.2BSD", "size" => $part1size, "volname' => "root"]];
+$partlayout = [["slice" => 1, "fstype" => "4.2BSD", "size" => $part1size, "volname" => "root"]];
 
 // Get product information
 $productname = get_product_name();
